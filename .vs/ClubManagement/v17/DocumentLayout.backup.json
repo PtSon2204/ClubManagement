@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepage\\homememberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\homememberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepage\\homememberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\homememberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\homeadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homeadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 755,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeAdminWindow.xaml.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:28:29.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeAdminWindow.xaml",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-03T09:27:10.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeMemberWindow.xaml.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:34:40.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeMemberWindow.xaml",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-03T02:42:06.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 296,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

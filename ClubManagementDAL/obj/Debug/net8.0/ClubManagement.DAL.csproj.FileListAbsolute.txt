@@ -1,0 +1,14 @@
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\bin\Debug\net8.0\ClubManagement.DAL.deps.json
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\bin\Debug\net8.0\ClubManagement.DAL.runtimeconfig.json
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\bin\Debug\net8.0\ClubManagement.DAL.dll
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\bin\Debug\net8.0\ClubManagement.DAL.pdb
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.csproj.AssemblyReference.cache
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.AssemblyInfoInputs.cache
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.AssemblyInfo.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.csproj.CoreCompileInputs.cache
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.dll
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\refint\ClubManagement.DAL.dll
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.pdb
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.genruntimeconfig.cache
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ref\ClubManagement.DAL.dll
