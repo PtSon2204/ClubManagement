@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClubManagementUI.HomePageAdmin"
         mc:Ignorable="d"
-        Title="HomeAdminWindow" Height="600" Width="1200"
+        Title="HomeAdminWindow" Height="800" Width="1300"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -22,21 +22,18 @@
                 <TextBlock Text="Welcome Admin" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <Button x:Name="UserButton" Content="Quản lý người dùng" Style="{StaticResource MenuButtonStyle}" />
-            <Button x:Name="ManagementCLB" Content="Quản lý CLB" Style="{StaticResource MenuButtonStyle}" />
-            <Button x:Name="ManagementEvent" Content="Quản lý sự kiện" Style="{StaticResource MenuButtonStyle}" />
-            <Button x:Name="ReportEvent" Content="Báo cáo hoạt động" Style="{StaticResource MenuButtonStyle}" />
+            <Button x:Name="UserButton" Content="Quản lý người dùng" Style="{StaticResource MenuButtonStyle}" Click="UserButton_Click" />
+            <Button x:Name="ManagementCLB" Content="Quản lý CLB" Style="{StaticResource MenuButtonStyle}" Click="ManagementCLB_Click" />
+            <Button x:Name="ManagementEvent" Content="Quản lý sự kiện" Style="{StaticResource MenuButtonStyle}" Click="ManagementEvent_Click" />
+            <Button x:Name="ReportEvent" Content="Báo cáo hoạt động" Style="{StaticResource MenuButtonStyle}" Click="ReportEvent_Click" />
         </StackPanel>
 
         <!-- MAIN CONTENT -->
         <Grid Grid.Column="1" Margin="20">
-            <TextBlock Text="Quản lý người dùng" FontSize="28" FontWeight="Bold" Height="490" VerticalAlignment="Top"/>
-            <!-- Nội dung thực tế bạn thay ở đây -->
+            <ContentControl x:Name="MainContent" Margin="0,0,0,2"/>
         </Grid>
-        <TextBlock x:Name="WelcomeText" FontSize="20" 
-                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
         <Button Content="Logout" Width="100" Height="30" 
-                Margin="0,529,23,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
+                Margin="0,714,40,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
     </Grid>
 </Window>

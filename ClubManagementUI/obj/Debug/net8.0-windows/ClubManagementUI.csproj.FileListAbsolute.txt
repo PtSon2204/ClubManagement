@@ -54,14 +54,12 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\bin\Debug\net8.
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.csproj.AssemblyReference.cache
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\HomeMemberWindow.g.cs
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\LoginWindow.g.cs
-D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\App.g.cs
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI_MarkupCompile.cache
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI_MarkupCompile.lref
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\App.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\HomeMemberWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\LoginWindow.baml
-D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\MainWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.g.resources
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.GeneratedMSBuildEditorConfig.editorconfig
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.AssemblyInfoInputs.cache
@@ -75,3 +73,12 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ref\ClubManagementUI.dll
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\HomeAdminWindow.g.cs
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\HomeAdminWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\UserButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\UserButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.sourcelink.json
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ClubButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ClubButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.baml

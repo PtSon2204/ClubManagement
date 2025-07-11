@@ -12,3 +12,4 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.pdb
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.genruntimeconfig.cache
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ref\ClubManagement.DAL.dll
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementDAL\obj\Debug\net8.0\ClubManagement.DAL.sourcelink.json

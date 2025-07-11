@@ -16,5 +16,25 @@ namespace ClubManagement.DLL.Services
         {
             return _repo.GetAccountRepo(email, password);
         }
+
+        public List<User> GetAllUser()
+        {
+            return _repo.GetAll();
+        }
+
+        public void AddUser(User user)
+        {
+            _repo.Add(user);
+        }
+
+        public void UpdateUser(User user)
+        {
+            _repo.Update(user);
+        }
+
+        public void DeleteUser(User user)
+        {
+            _repo.Delete(user);
+        }
     }
 }

@@ -2,7 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="HomePageAdmin\ClubButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageAdmin\EventButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="HomePageAdmin\HomeAdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageAdmin\ReportButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageAdmin\UserButtonWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="HomePage\HomeMemberWindow.xaml.cs">
