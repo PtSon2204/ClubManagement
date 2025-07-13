@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\userbuttonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\userbuttonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|solutionrelative:clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\userbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\userbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\log\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementdll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|solutionrelative:clubmanagementdll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\homepageadmin\\userbuttonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\userbuttonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 755,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -40,59 +40,61 @@
               "RelativeDocumentMoniker": "ClubManagementUI\\util\\Validate.cs",
               "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\util\\Validate.cs",
               "RelativeToolTip": "ClubManagementUI\\util\\Validate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T15:09:43.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeAdminWindow.xaml",
-              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
-              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
-              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
-              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-05T15:04:10.009Z",
+              "WhenOpened": "2025-07-13T08:49:15.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserButtonWindow.xaml.cs",
-              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
-              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
-              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAjwKIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T09:26:34.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDAL\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "ClubManagementDAL\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDAL\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "ClubManagementDAL\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAhwCUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T09:14:06.365Z",
+              "WhenOpened": "2025-07-13T08:41:09.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:37:28.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserButtonWindow.xaml",
-              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
-              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
-              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
-              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-04T06:54:56.601Z",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDll\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ClubManagementDll\\Services\\UserService.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDll\\Services\\UserService.cs",
+              "RelativeToolTip": "ClubManagementDll\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:37:19.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserButtonWindow.xaml.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswGgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:37:16.759Z",
               "EditorCaption": ""
             }
           ]

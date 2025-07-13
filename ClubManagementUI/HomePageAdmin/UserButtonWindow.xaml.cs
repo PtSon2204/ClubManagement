@@ -51,7 +51,7 @@ namespace ClubManagementUI.HomePageAdmin
             User? selected = UserDataGird.SelectedItem as User;
             if (selected == null)
             { //user ko chọn dòng nào mà lại nhấn edit
-                MessageBox.Show("Please select a row/ an air con before editing", "Select a row", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                MessageBox.Show("Please select a row/ an user before editing", "Select a row", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
             }
             _userSelect = selected;
@@ -72,6 +72,7 @@ namespace ClubManagementUI.HomePageAdmin
             ClubIdComBox.DisplayMemberPath = "ClubName"; //hiển thị cột nào
             ClubIdComBox.SelectedValuePath = "ClubId"; //lấy id để ném làm fk của user
             UserRoleComBox.ItemsSource = new List<string> { "Admin", "Chairman", "ViceChairman", "TeamLeader", "Member" };
+            UserRoleComBox.SelectedItem = "Member";
         }
         
         //hàm này đổ dữ liệu vào text khi chọn 1 dòng để cập nhật
@@ -98,6 +99,13 @@ namespace ClubManagementUI.HomePageAdmin
             // Gọi validate
             if (!Validation.Validate.GetFormatAddUser_SON(UserNameTextBox.Text, UserPasswordTextBox.Text, selectedRole, UserEmailTextBox.Text, ClubIdComBox.SelectedValue))
                 return;
+
+            if (_userSelect is null)
+            {
+                List<User> allUsers = _userService.GetAllUser();
+                if (!Validation.Validate.NotDuplicationEmail(allUsers, UserEmailTextBox.Text))
+                    return;
+            }
 
             User newUser = new User();
 
@@ -136,7 +144,7 @@ namespace ClubManagementUI.HomePageAdmin
             User? selected = UserDataGird.SelectedItem as User;
             if (selected == null)
             { //user ko chọn dòng nào mà lại nhấn xóa
-                MessageBox.Show("Please select a row/ an air con before delete", "Select a row", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                MessageBox.Show("Please select a row/ an user before delete", "Select a row", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
             }
 
@@ -161,6 +169,13 @@ namespace ClubManagementUI.HomePageAdmin
             {
                 FillElements(_userSelect);
             }
+        }
+
+        private void SearchUserButton_Click(object sender, RoutedEventArgs e)
+        {
+            var result = _userService.SearchUserByNameOrEmail(NameSearchTextBox.Text, EmailSearchTextBox.Text);
+            UserDataGird.ItemsSource = null;
+            UserDataGird.ItemsSource = result;
         }
     }
 }

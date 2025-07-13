@@ -57,7 +57,7 @@
         <Button x:Name="AddUserButton" Content="Lưu" HorizontalAlignment="Left" Margin="616,646,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="AddUserButton_Click"/>
         <Button x:Name="DeleteUserButton" Content="Xóa" HorizontalAlignment="Left" Margin="732,645,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="DeleteUserButton_Click"/>
         <Button x:Name="ResetUserButton" Content="Reset" HorizontalAlignment="Left" Margin="853,644,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="ResetUserButton_Click"/>
-        <Button x:Name="SearchUserButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="769,63,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}"/>
+        <Button x:Name="SearchUserButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="769,63,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="SearchUserButton_Click"/>
 
     </Grid>
 </UserControl>

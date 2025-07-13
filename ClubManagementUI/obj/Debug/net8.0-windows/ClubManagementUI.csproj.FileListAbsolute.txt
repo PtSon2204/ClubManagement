@@ -82,3 +82,4 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ClubButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll

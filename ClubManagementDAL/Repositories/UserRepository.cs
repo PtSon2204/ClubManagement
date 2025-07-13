@@ -12,10 +12,10 @@ namespace ClubManagement.DAL.Repositories
     {
         private ClubManagementContext? _context; //khi dùng thì mới new()
 
-        public User? GetAccountRepo(string email, string password)
+        public User? GetAccountRepo(string email)
         {
             _context = new();
-            return _context.Users.FirstOrDefault(x => x.Email.Equals(email) && x.Password.Equals(password));
+            return _context.Users.FirstOrDefault(x => x.Email.Equals(email));
         }
 
         public List<User> GetAll()
