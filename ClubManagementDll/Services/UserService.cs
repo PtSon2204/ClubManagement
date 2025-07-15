@@ -50,24 +50,20 @@ namespace ClubManagement.DLL.Services
 
         public List<User> SearchUserByNameOrEmail(string name, string email)
         {
-            //1. KO GÕ 2 KETWORD, TRẢ VỀ FULL
             List<User> result = _repo.GetAll();
-            //if (feature.IsNullOrEmpty() && quantity == null)
             if (name.IsNullOrEmpty() && email.IsNullOrEmpty())
             {
                 return result;
             }
-
-            //2. NẾU GÕ FEATURE, DÙNG MỆNH ĐỀ OR
             if (!email.IsNullOrEmpty() && !name.IsNullOrEmpty())
             {
                 result = result.Where(x => x.FullName.ToLower().Contains(name.ToLower()) || x.Email.ToLower().Contains(email.ToLower())).ToList();
             }
             else if (!email.IsNullOrEmpty()) //1 trong 2 th đang khác rỗng
-            { //th feature có value
+            { 
                 result = result.Where(x => x.Email.ToLower().Contains(email.ToLower())).ToList();
             }
-            else //th quantity có value
+            else 
             {
                 result = result.Where(x => x.FullName.ToLower().Contains(name.ToLower())).ToList(); ;
             }

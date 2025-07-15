@@ -15,6 +15,7 @@ using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
 using ClubManagementUI.HomePage;
 using ClubManagementUI.HomePageAdmin;
+using ClubManagementUI.Log;
 
 namespace ClubManagementUI
 {
@@ -89,6 +90,12 @@ namespace ClubManagementUI
                 return;
             }
             Application.Current.Shutdown();
+        }
+
+        private void ForgetPass_Click(object sender, RoutedEventArgs e)
+        {
+            var fogetpass = new ForgetPassWindow();
+            fogetpass.Show();
         }
     }
 }

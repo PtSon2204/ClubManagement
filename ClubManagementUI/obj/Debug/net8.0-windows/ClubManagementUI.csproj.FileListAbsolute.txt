@@ -83,3 +83,11 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.baml

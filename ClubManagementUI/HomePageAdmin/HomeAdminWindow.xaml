@@ -24,8 +24,12 @@
 
             <Button x:Name="UserButton" Content="Quản lý người dùng" Style="{StaticResource MenuButtonStyle}" Click="UserButton_Click" />
             <Button x:Name="ManagementCLB" Content="Quản lý CLB" Style="{StaticResource MenuButtonStyle}" Click="ManagementCLB_Click" />
+            <Button x:Name="EventParticipants" Content="Trạng thái người tham gia" Style="{StaticResource MenuButtonStyle}" Width="207" Click="EventParticipants_Click" />
             <Button x:Name="ManagementEvent" Content="Quản lý sự kiện" Style="{StaticResource MenuButtonStyle}" Click="ManagementEvent_Click" />
             <Button x:Name="ReportEvent" Content="Báo cáo hoạt động" Style="{StaticResource MenuButtonStyle}" Click="ReportEvent_Click" />
+            <Button x:Name="Statistic" Content="Thống kê" Style="{StaticResource MenuButtonStyle}" Click="Statistic_Click" />
+            <Button x:Name="SendNotication" Content="Cấp mật khẩu" Style="{StaticResource MenuButtonStyle}" Click="SendNotication_Click"/>
+
         </StackPanel>
 
         <!-- MAIN CONTENT -->

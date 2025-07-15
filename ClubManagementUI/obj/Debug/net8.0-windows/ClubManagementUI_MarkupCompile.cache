@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\App.xaml
-7-1524451514
+112002894341
 
-11-483484204
+151116045980
 236166059715
-HomePageAdmin\ClubButtonWindow.xaml;HomePageAdmin\EventButtonWindow.xaml;HomePageAdmin\HomeAdminWindow.xaml;HomePageAdmin\ReportButtonWindow.xaml;HomePageAdmin\UserButtonWindow.xaml;HomePage\HomeMemberWindow.xaml;Log\LoginWindow.xaml;
+HomePageAdmin\ClubButtonWindow.xaml;HomePageAdmin\EventButtonWindow.xaml;HomePageAdmin\EventParticipantsButtonWindow.xaml;HomePageAdmin\HomeAdminWindow.xaml;HomePageAdmin\ReportButtonWindow.xaml;HomePageAdmin\SendNotiButtonWindow.xaml;HomePageAdmin\StatisticButtonWindow.xaml;HomePageAdmin\UserButtonWindow.xaml;HomePage\HomeMemberWindow.xaml;Log\ForgetPassWindow.xaml;Log\LoginWindow.xaml;
 
 False
 

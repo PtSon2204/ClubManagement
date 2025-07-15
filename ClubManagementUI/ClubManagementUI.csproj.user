@@ -8,16 +8,28 @@
     <Compile Update="HomePageAdmin\EventButtonWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="HomePageAdmin\EventParticipantsButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="HomePageAdmin\HomeAdminWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="HomePageAdmin\ReportButtonWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="HomePageAdmin\SendNotiButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageAdmin\StatisticButtonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="HomePageAdmin\UserButtonWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="HomePage\HomeMemberWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Log\ForgetPassWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Log\LoginWindow.xaml.cs">

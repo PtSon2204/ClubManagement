@@ -133,8 +133,8 @@ namespace ClubManagementUI.HomePageAdmin
         private void SearchClubButton_Click(object sender, RoutedEventArgs e)
         {
             // Gọi hàm từ UI
-            string name = ClubNameTextBox.Text;
-            string date = EstablishedDate.SelectedDate?.ToString("yyyy-MM-dd") ?? "";
+            string name = ClbNameSearchTextBox.Text;
+            string date = EstaDateSearchTextBox.SelectedDate?.ToString("yyyy-MM-dd") ?? "";
 
             var result = _clubService.SearchClubByNameOrEstabDate(name, date);
             ClubDataGird.ItemsSource = null;

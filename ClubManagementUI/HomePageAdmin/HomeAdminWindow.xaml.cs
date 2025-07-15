@@ -56,5 +56,20 @@ namespace ClubManagementUI.HomePageAdmin
         {
             MainContent.Content = new ReportButtonWindow();
         }
+
+        private void EventParticipants_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new EventParticipantsButtonWindow();
+        }
+
+        private void Statistic_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new StatisticButtonWindow();
+        }
+
+        private void SendNotication_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new SendNotiButtonWindow();
+        }
     }
 }
