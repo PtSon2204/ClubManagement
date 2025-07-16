@@ -1,4 +1,5 @@
 ﻿
+<<<<<<< Updated upstream
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\App.xaml;;
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\HomePageAdmin\ClubButtonWindow.xaml;;
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\HomePageAdmin\EventButtonWindow.xaml;;
@@ -7,4 +8,18 @@ FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\HomePageAdmin\
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\HomePageAdmin\UserButtonWindow.xaml;;
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\HomePage\HomeMemberWindow.xaml;;
 FD:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\Log\LoginWindow.xaml;;
+=======
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\App.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\ClubButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\EventButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\EventParticipantsButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\HomeAdminWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\ReportButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\SendNotiButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePageAdmin\UserButtonWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePage\HomeMemberWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\HomePage\MemberButton.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\Log\ForgetPassWindow.xaml;;
+FD:\SWP\ManagerShops\ClubManagement\ClubManagementUI\Log\LoginWindow.xaml;;
+>>>>>>> Stashed changes
 

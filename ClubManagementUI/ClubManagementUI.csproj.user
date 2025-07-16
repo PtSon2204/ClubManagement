@@ -20,6 +20,15 @@
     <Compile Update="HomePage\HomeMemberWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Update="HomePage\MemberButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Log\ForgetPassWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Update="Log\LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -19,6 +19,9 @@ namespace ClubManagementUI.HomePage
     /// <summary>
     /// Interaction logic for HomeWindow.xaml
     /// </summary>
+    
+
+
     public partial class HomeWindow : Window
     {
         public User? GetMember { get; set; } = null;
@@ -37,6 +40,13 @@ namespace ClubManagementUI.HomePage
                 login.Show();
                 this.Close();
             }
+        }
+
+       
+
+        private void MemberButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new MemberButton();
         }
     }
 }  

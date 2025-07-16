@@ -83,3 +83,109 @@ D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.baml
 D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+<<<<<<< Updated upstream
+=======
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.baml
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.g.cs
+D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagementUI.exe
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\appsettings.json
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagementUI.deps.json
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagementUI.runtimeconfig.json
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagementUI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagementUI.pdb
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagement.DAL.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagement.DLL.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagement.DLL.pdb
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\bin\Debug\net8.0-windows\ClubManagement.DAL.pdb
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.csproj.AssemblyReference.cache
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ClubButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\HomeAdminWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\StatisticButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\UserButtonWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\HomeMemberWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\LoginWindow.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\App.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI_MarkupCompile.cache
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI_MarkupCompile.lref
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\App.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ClubButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\EventParticipantsButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\HomeAdminWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\ReportButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\SendNotiButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePageAdmin\UserButtonWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\HomeMemberWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\ForgetPassWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\Log\LoginWindow.baml
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.g.resources
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.AssemblyInfoInputs.cache
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.AssemblyInfo.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.csproj.CoreCompileInputs.cache
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.sourcelink.json
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubMana.A5202F7C.Up2Date
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\refint\ClubManagementUI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.pdb
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ClubManagementUI.genruntimeconfig.cache
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\ref\ClubManagementUI.dll
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\MemberButton.g.cs
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\HomePage\MemberButton.baml
+>>>>>>> Stashed changes

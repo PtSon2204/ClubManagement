@@ -64,8 +64,7 @@ namespace ClubManagementUI
                     break;
 
                 case "teamleader":
-
-                    break;
+                    
 
                 case "member":
                     var memberWindow = new HomeWindow();

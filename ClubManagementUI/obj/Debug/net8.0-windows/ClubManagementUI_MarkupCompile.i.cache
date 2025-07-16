@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\obj\Debug\net8.0-windows\
 ClubManagementUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\test GitHub\PRN212_Assignment\ClubManagement\ClubManagementUI\App.xaml
-7-1524451514
+D:\SWP\ManagerShops\ClubManagement\ClubManagementUI\App.xaml
+8525695046
 
-13-563622154
-236166059715
-HomePageAdmin\ClubButtonWindow.xaml;HomePageAdmin\EventButtonWindow.xaml;HomePageAdmin\HomeAdminWindow.xaml;HomePageAdmin\ReportButtonWindow.xaml;HomePageAdmin\UserButtonWindow.xaml;HomePage\HomeMemberWindow.xaml;Log\LoginWindow.xaml;
+14-283340254
+236-1480262349
+HomePageAdmin\ClubButtonWindow.xaml;HomePageAdmin\EventButtonWindow.xaml;HomePageAdmin\HomeAdminWindow.xaml;HomePageAdmin\ReportButtonWindow.xaml;HomePageAdmin\UserButtonWindow.xaml;HomePage\HomeMemberWindow.xaml;HomePage\MemberButton.xaml;Log\LoginWindow.xaml;
 
 True
 

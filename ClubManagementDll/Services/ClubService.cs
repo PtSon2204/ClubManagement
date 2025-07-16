@@ -63,33 +63,6 @@ namespace ClubManagement.DLL.Services
             return result;
         }
 
-        //Cách 2:
-        //public List<Club> SearchClubByNameOrEstabDate(string name, DateOnly? estabDate)
-        //{
-        //    List<Club> result = _repo.GetAll();
-
-        //    if (string.IsNullOrEmpty(name) && estabDate == null)
-        //    {
-        //        return result;
-        //    }
-
-        //    if (!string.IsNullOrEmpty(name) && estabDate != null)
-        //    {
-        //        result = result.Where(x =>
-        //            x.ClubName.ToLower().Contains(name.ToLower()) ||
-        //            x.EstablishedDate == estabDate.Value
-        //        ).ToList();
-        //    }
-        //    else if (estabDate != null)
-        //    {
-        //        result = result.Where(x => x.EstablishedDate == estabDate.Value).ToList();
-        //    }
-        //    else // chỉ có name
-        //    {
-        //        result = result.Where(x => x.ClubName.ToLower().Contains(name.ToLower())).ToList();
-        //    }
-
-        //    return result;
-        //}
+      
     }
 }

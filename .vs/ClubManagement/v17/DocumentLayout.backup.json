@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\",
+  "WorkspaceRootPath": "D:\\SWP\\ManagerShops\\ClubManagement\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|solutionrelative:clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +22,99 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepage\\memberbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\memberbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepage\\memberbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\memberbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementdal\\entities\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|solutionrelative:clubmanagementdal\\entities\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepage\\homememberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\homememberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementdll\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|solutionrelative:clubmanagementdll\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementdal\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|solutionrelative:clubmanagementdal\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepage\\homememberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\homememberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homeadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\homeadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homeadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\userbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\userbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementdll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2697046-FF0C-4273-A912-CB91F6F560C9}|ClubManagementDll\\ClubManagement.DLL.csproj|solutionrelative:clubmanagementdll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\log\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\eventbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\eventbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\log\\forgetpasswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\forgetpasswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\eventparticipantsbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\eventparticipantsbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\clubbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\clubbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\homepageadmin.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\homepageadmin.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\reportbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\reportbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\sendnotibuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\sendnotibuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepageadmin\\statisticbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepageadmin\\statisticbuttonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\swp\\managershops\\clubmanagement\\clubmanagementui\\homepage\\homepage.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\homepage\\homepage.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
     {
+<<<<<<< Updated upstream
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
@@ -57,10 +147,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T08:41:09.878Z",
               "EditorCaption": ""
+=======
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Club.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDAL\\Entities\\Club.cs",
+              "RelativeDocumentMoniker": "ClubManagementDAL\\Entities\\Club.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDAL\\Entities\\Club.cs",
+              "RelativeToolTip": "ClubManagementDAL\\Entities\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:58:08.993Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "ClubManagementUI\\Log\\LoginWindow.xaml.cs",
@@ -69,10 +180,32 @@
               "ViewState": "AgIAABcAAAAAAAAAAAAxwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T08:37:28.053Z",
+=======
+              "Title": "MemberButton.xaml.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\MemberButton.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\MemberButton.xaml.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\MemberButton.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\MemberButton.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:29:43.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberButton.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\MemberButton.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\MemberButton.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\MemberButton.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\MemberButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T13:26:35.252Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDll\\Services\\UserService.cs",
@@ -95,7 +228,223 @@
               "ViewState": "AgIAAF8AAAAAAAAAAAAswGgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T08:37:16.759Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDll\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "ClubManagementDll\\Services\\ClubService.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDll\\Services\\ClubService.cs",
+              "RelativeToolTip": "ClubManagementDll\\Services\\ClubService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA8wEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:23:19.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClubRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDAL\\Repositories\\ClubRepository.cs",
+              "RelativeDocumentMoniker": "ClubManagementDAL\\Repositories\\ClubRepository.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDAL\\Repositories\\ClubRepository.cs",
+              "RelativeToolTip": "ClubManagementDAL\\Repositories\\ClubRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:23:01.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\App.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\App.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\App.xaml",
+              "RelativeToolTip": "ClubManagementUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T13:17:46.57Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDll\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ClubManagementDll\\Services\\UserService.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementDll\\Services\\UserService.cs",
+              "RelativeToolTip": "ClubManagementDll\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:06:39.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgetPassWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\Log\\ForgetPassWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\Log\\ForgetPassWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T16:05:00.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventParticipantsButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\EventParticipantsButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\EventParticipantsButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\EventParticipantsButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\EventParticipantsButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T16:04:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SendNotiButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\SendNotiButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\SendNotiButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\SendNotiButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\SendNotiButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T16:04:43.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StatisticButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\StatisticButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\StatisticButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\StatisticButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\StatisticButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T16:04:41.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\UserButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T16:04:38.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomePage.jpg -  [English (United States)] - Bitmap [3247x1924, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomePage.jpg",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\HomePage.jpg",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomePage.jpg -  [English (United States)] - Bitmap [3247x1924, 24 bit, JPG]",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\HomePage.jpg -  [English (United States)] - Bitmap [3247x1924, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-07-15T16:04:16.915Z",
+              "EditorCaption": " -  [English (United States)] - Bitmap [3247x1924, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeMemberWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwCwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:00:27.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\EventButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\EventButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\EventButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\EventButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T15:57:02.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClubButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\ClubButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\ClubButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\ClubButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\ClubButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T15:56:59.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReportButtonWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\ReportButtonWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\ReportButtonWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\ReportButtonWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\ReportButtonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T15:56:53.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomePageAdmin.png -  [English (United States)] - PNG [560x200, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomePageAdmin.png",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomePageAdmin.png",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomePageAdmin.png -  [English (United States)] - PNG [560x200, 32 bit, PNG]",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomePageAdmin.png -  [English (United States)] - PNG [560x200, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-07-15T15:56:51.542Z",
+              "EditorCaption": " -  [English (United States)] - PNG [560x200, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeAdminWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T15:52:17.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeMemberWindow.xaml",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "RelativeToolTip": "ClubManagementUI\\HomePage\\HomeMemberWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-15T15:51:37.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\Log\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T15:15:53.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeAdminWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "ToolTip": "D:\\SWP\\ManagerShops\\ClubManagement\\ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "RelativeToolTip": "ClubManagementUI\\HomePageAdmin\\HomeAdminWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T15:16:37.341Z"
             }
           ]
         },

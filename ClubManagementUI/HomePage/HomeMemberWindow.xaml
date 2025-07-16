@@ -5,16 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClubManagementUI.HomePage"
         mc:Ignorable="d"
-        Title="HomeMemberWindow" Height="600" Width="1200"
+        Title="HomeMemberWindow" Height="800" Width="1300"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <TextBlock x:Name="WelcomeText" FontSize="20" 
-                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220" />
+            <!-- Sidebar -->
+            <ColumnDefinition Width="*" />
+            <!-- Main content -->
+        </Grid.ColumnDefinitions>
+
+        <!-- SIDEBAR -->
+        <StackPanel Background="#2E2E2E" Grid.Column="0">
+            <StackPanel Margin="10">
+                <Image Source="/HomePageAdmin/HomePageAdmin.png" Width="198" Height="147" Margin="0,10" HorizontalAlignment="Center"/>
+                <TextBlock Text="Welcome Member" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
+            </StackPanel>
+
+            <Button x:Name="MemberButton" Content="Danh sách câu lạc bộ" Style="{StaticResource MenuButtonStyle}" Click="MemberButton_Click_1"  />
+            
+
+        </StackPanel>
+
+        <!-- MAIN CONTENT -->
+        <Grid Grid.Column="1" Margin="20">
+            <ContentControl x:Name="MainContent" Margin="0,0,0,2"/>
+        </Grid>
 
         <Button Content="Logout" Width="100" Height="30" 
-                HorizontalAlignment="Right" VerticalAlignment="Top" 
-                Margin="0,20,20,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click"/>
-        
-        
+            Margin="0,714,40,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
     </Grid>
 </Window>
