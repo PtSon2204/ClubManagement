@@ -77,7 +77,7 @@ namespace ClubManagementUI.Log {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ClubManagementUI;V1.0.0.0;component/log/forgetpasswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ClubManagementUI;component/log/forgetpasswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Log\ForgetPassWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
