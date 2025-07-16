@@ -40,6 +40,7 @@ namespace ClubManagement.DLL.Services
 
         public void UpdateUser(User user)
         {
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             _repo.Update(user);
         }
 

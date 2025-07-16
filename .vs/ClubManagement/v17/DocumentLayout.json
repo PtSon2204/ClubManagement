@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\log\\forgetpasswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\forgetpasswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB3A792-B020-4009-A63B-49586DB77154}|ClubManagementDAL\\ClubManagement.DAL.csproj|solutionrelative:clubmanagementdal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\log\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\log\\forgetpasswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\log\\forgetpasswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|d:\\test github\\prn212_assignment\\clubmanagement\\clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A21655-0062-4E3C-9A3A-CD6485560812}|ClubManagementUI\\ClubManagementUI.csproj|solutionrelative:clubmanagementui\\util\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForgetPassWindow.xaml.cs",
-              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ClubManagementUI\\Log\\ForgetPassWindow.xaml.cs",
-              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml.cs",
-              "RelativeToolTip": "ClubManagementUI\\Log\\ForgetPassWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:49:08.794Z",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\App.xaml",
+              "RelativeDocumentMoniker": "ClubManagementUI\\App.xaml",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\App.xaml",
+              "RelativeToolTip": "ClubManagementUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T14:08:07.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ClubManagementDAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementDAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ClubManagementDAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:38:46.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Validate.cs",
               "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\util\\Validate.cs",
               "RelativeDocumentMoniker": "ClubManagementUI\\util\\Validate.cs",
@@ -51,20 +63,7 @@
               "RelativeToolTip": "ClubManagementUI\\util\\Validate.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwDsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:47:24.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ForgetPassWindow.xaml",
-              "DocumentMoniker": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml",
-              "RelativeDocumentMoniker": "ClubManagementUI\\Log\\ForgetPassWindow.xaml",
-              "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\ForgetPassWindow.xaml",
-              "RelativeToolTip": "ClubManagementUI\\Log\\ForgetPassWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T07:32:32.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T07:47:24.503Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "ToolTip": "D:\\test GitHub\\PRN212_Assignment\\ClubManagement\\ClubManagementUI\\Log\\LoginWindow.xaml",
               "RelativeToolTip": "ClubManagementUI\\Log\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T07:23:14.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T07:23:14.329Z"
             }
           ]
         },

@@ -124,7 +124,7 @@ namespace ClubManagementUI.HomePageAdmin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ClubManagementUI;V1.0.0.0;component/homepageadmin/statisticbuttonwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ClubManagementUI;component/homepageadmin/statisticbuttonwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\HomePageAdmin\StatisticButtonWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
