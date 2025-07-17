@@ -74,7 +74,7 @@ namespace ClubManagementUI
                     memberWindow.Show();
                     break;
 
-                default:
+                  default:
                     MessageBox.Show("Unknown role.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
             }
