@@ -1,0 +1,38 @@
+﻿<Window x:Class="ClubManagementUI.HomeChairman.HomeChairmanWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClubManagementUI.HomeChairman"
+        mc:Ignorable="d"
+        Title="HomeChairmanWindow"  Height="800" Width="1300"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220" />
+            <!-- Sidebar -->
+            <ColumnDefinition Width="*" />
+            <!-- Main content -->
+        </Grid.ColumnDefinitions>
+
+        <!-- SIDEBAR -->
+        <StackPanel Background="#2E2E2E" Grid.Column="0">
+            <StackPanel Margin="10">
+                <Image Source="/HomePageAdmin/HomePageAdmin.png" Width="198" Height="147" Margin="0,10" HorizontalAlignment="Center"/>
+                <TextBlock Text="Welcome Chairman" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
+            </StackPanel>
+
+            <Button x:Name="UserButton" Content="Quản lý thành viên clb" Style="{StaticResource MenuButtonStyle}" Click="UserButton_Click" />
+            
+
+        </StackPanel>
+
+        <!-- MAIN CONTENT -->
+        <Grid Grid.Column="1" Margin="20">
+            <ContentControl x:Name="MainContent" Margin="0,0,0,2"/>
+        </Grid>
+
+        <Button Content="Logout" Width="100" Height="30" 
+                Margin="0,714,40,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
+    </Grid>
+</Window>

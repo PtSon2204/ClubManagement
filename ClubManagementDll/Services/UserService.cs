@@ -27,6 +27,10 @@ namespace ClubManagement.DLL.Services
             return null;
         }
 
+        public List<User> GetUserInClub(int clubId)
+        {
+            return _repo.GetMembersOfMyClub(clubId);
+        }
         public List<User> GetAllUser()
         {
             return _repo.GetAll();
