@@ -18,6 +18,27 @@ namespace ClubManagement.DAL.Repositories
             return _context.Users.FirstOrDefault(x => x.Email.Equals(email));
         }
 
+        public List<User> GetMembersOfMyClub(int currentUserId)
+        {
+            _context = new();
+            {
+                // Lấy ClubID của user hiện tại nếu là Chairman
+                var myClubId = _context.Users
+                                .Where(u => u.UserId == currentUserId && u.Role == "Chairman")
+                                .Select(u => u.ClubId)
+                                .FirstOrDefault();
+
+                if (myClubId == 0)
+                    return new List<User>();
+
+                // Lấy danh sách các thành viên thuộc CLB đó
+                return _context.Users
+                              .Where(u => u.ClubId == myClubId)
+                              .ToList();
+            }
+        }
+
+
         public List<User> GetAll()
         {
             _context = new();
