@@ -18,6 +18,11 @@ namespace ClubManagement.DAL.Repositories
             return _context.Reports.Include("Club").ToList();
         }
 
+        public List<Report> GetAllReportByClubId(int clubId)
+        {
+            _context = new();
+            return _context.Reports.Where(x => x.ClubId == clubId).ToList();
+        }
         public void Add(Report report)
         {
             _context = new();

@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="ClubManagementUI.HomeChairman.UserButtonWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClubManagementUI.HomeChairman"
+             mc:Ignorable="d" 
+              d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded">
+    <Grid Background="white">
+        <Rectangle HorizontalAlignment="Center" Height="57"  Margin="0,54,0,0" VerticalAlignment="Top" Width="802"
+           RadiusX="10" RadiusY="10" Fill="#C0C0C0" Stroke="Transparent"/>
+        <Label Content="Tên:" HorizontalAlignment="Left" Margin="113,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.643,0.636" Height="33" Width="47" FontSize="16" />
+        <Border CornerRadius="8" BorderBrush="Gray" BorderThickness="1" Background="White" Width="271" Height="27" 
+                Margin="149,66,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="NameSearchTextBox" Text="" FontSize="17" Background="Transparent" BorderThickness="0" Padding="5,2"/>
+        </Border>
+
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="428,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,0.578" Height="33" Width="56" FontSize="16"/>
+        <Border CornerRadius="8" BorderBrush="Gray" BorderThickness="1" Background="White" Width="271" Height="27" 
+                Margin="484,66,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="EmailSearchTextBox" Text="" FontSize="17" Background="Transparent" BorderThickness="0" Padding="5,2"/>
+        </Border>
+
+        <TextBlock Text="Danh sách thành viên Media Club" FontSize="28" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="340,4,368,0"/>
+
+        <DataGrid x:Name="UserDataGird" Margin="33,120,13,282" RenderTransformOrigin="0.5,0.5" SelectionMode="Single" 
+                  AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="UserDataGird_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="50" Binding="{Binding UserId}"/>
+                <DataGridTextColumn Header="Fullname" Width="200" Binding="{Binding FullName}"/>
+                <DataGridTextColumn Header="Email" Width="200" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Role" Width="100" Binding="{Binding Role}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Content="UserID:" HorizontalAlignment="Left" Margin="45,454,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="UserIdTextBox" HorizontalAlignment="Left" Margin="135,453,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44" IsEnabled="False"/>
+
+        <Label Content="Fullname:" HorizontalAlignment="Left" Margin="505,544,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Margin="604,533,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+        <Label Content="Role:" HorizontalAlignment="Left" Margin="59,533,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <ComboBox x:Name="UserRoleComBox" HorizontalAlignment="Left" Margin="133,528,0,0" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="518,456,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="UserEmailTextBox" HorizontalAlignment="Left" Margin="604,454,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+
+        <Button x:Name="AddUserButton" Content="Lưu" HorizontalAlignment="Left" Margin="320,611,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="AddUserButton_Click"/>
+        <Button x:Name="DeleteUserButton" Content="Xóa" HorizontalAlignment="Center" Margin="0,611,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="DeleteUserButton_Click" />
+        <Button x:Name="ResetUserButton" Content="Reset" HorizontalAlignment="Left" Margin="571,612,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="ResetUserButton_Click"/>
+        <Button x:Name="SearchUserButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="769,63,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="SearchUserButton_Click" />
+
+    </Grid>
+</UserControl>

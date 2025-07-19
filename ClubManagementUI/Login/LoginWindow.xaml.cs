@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using ClubManagementUI.HomeChairman;
 using ClubManagementUI.HomePage;
 using ClubManagementUI.HomePageAdmin;
 using ClubManagementUI.Log;
@@ -57,7 +58,10 @@ namespace ClubManagementUI
                     break;
 
                 case "chairman":
-
+                    int clubId = account.ClubId.Value; // Đảm bảo User có thuộc tính ClubId
+                    var chairmanWindow = new HomeChairmanWindow();  // hoặc truyền luôn user nếu muốn
+                    chairmanWindow.GetMember = account;
+                    chairmanWindow.Show();
                     break;
 
                 case "vicechairman":

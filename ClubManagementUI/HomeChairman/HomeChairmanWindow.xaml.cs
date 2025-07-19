@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,23 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 
-namespace ClubManagementUI.HomePage
+namespace ClubManagementUI.HomeChairman
 {
     /// <summary>
-    /// Interaction logic for HomeWindow.xaml
+    /// Interaction logic for HomeChairmanWindow.xaml
     /// </summary>
-
-
-
-    public partial class HomeWindow : Window
+    public partial class HomeChairmanWindow : Window
     {
         public User? GetMember { get; set; } = null;
-        public HomeWindow()
+        public HomeChairmanWindow()
         {
             InitializeComponent();
         }
 
-        //hàm logout
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
             var result = MessageBox.Show("Are you sure you want to log out?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question);
@@ -42,11 +37,24 @@ namespace ClubManagementUI.HomePage
             }
         }
 
-
-
-        private void MemberButton_Click_1(object sender, RoutedEventArgs e)
+        private void UserButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new MemberButton();
+            MainContent.Content = new UserButtonWindow(GetMember);
+        }
+
+        private void EventButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ChairEventButtonWindow(GetMember);
+        }
+
+        private void ChangePass_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ChairChangePassWindow(GetMember);
+        }
+
+        private void ViewReport_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ViewReportButtonWindow(GetMember);
         }
     }
 }

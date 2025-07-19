@@ -1,11 +1,11 @@
-﻿<Window x:Class="ClubManagementUI.HomePage.HomeWindow"
+﻿<Window x:Class="ClubManagementUI.HomePageVicechairman.HomeVicechairmanWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ClubManagementUI.HomePage"
+        xmlns:local="clr-namespace:ClubManagementUI.HomePageVicechairman"
         mc:Ignorable="d"
-        Title="HomeMemberWindow" Height="800" Width="1300"
+        Title="HomeVicechairmanWindow" Height="800" Width="1300"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -19,10 +19,10 @@
         <StackPanel Background="#2E2E2E" Grid.Column="0">
             <StackPanel Margin="10">
                 <Image Source="/HomePageAdmin/HomePageAdmin.png" Width="198" Height="147" Margin="0,10" HorizontalAlignment="Center"/>
-                <TextBlock Text="Welcome Member" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
+                <TextBlock Text="Welcome Vicechairman" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <Button x:Name="MemberButton" Content="Danh sách câu lạc bộ" Style="{StaticResource MenuButtonStyle}" Click="MemberButton_Click_1"  />
+            <Button x:Name="UserButton" Content="Quản lý người dùng" Style="{StaticResource MenuButtonStyle}" />
 
 
         </StackPanel>
@@ -33,6 +33,6 @@
         </Grid>
 
         <Button Content="Logout" Width="100" Height="30" 
-            Margin="0,714,40,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
+                Margin="0,714,40,0"  Style="{StaticResource LogoutButtonStyle}"  Click="Logout_Click" Grid.Column="1"/>
     </Grid>
 </Window>

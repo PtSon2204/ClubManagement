@@ -17,6 +17,17 @@ namespace ClubManagement.DLL.Services
             return _repo.GetAll();
         }
 
+        public List<Report> SearchByDate(DateTime fromDate, DateTime toDate) 
+        {
+            var result = _repo.GetAll();
+
+            return result.Where(r => r.CreatedDate.Value >= fromDate.Date && r.CreatedDate.Value <= toDate.Date).ToList(); ;
+        }
+
+        public List<Report> GetReportsByClubId(int clubId)
+        {
+            return _repo.GetAllReportByClubId(clubId);
+        }
         public void AddReport(Report report)
         {
             _repo.Add(report);
