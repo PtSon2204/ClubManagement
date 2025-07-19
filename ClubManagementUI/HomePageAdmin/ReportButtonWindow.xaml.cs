@@ -23,7 +23,6 @@ namespace ClubManagementUI.HomePageAdmin
     public partial class ReportButtonWindow : UserControl
     {
         private ReportService _reportService = new();
-        private ClubService _clubService = new();
         private Report? _reportSelect = null;
         private bool _isRefreshingGrid = false;
         public ReportButtonWindow()
@@ -40,32 +39,9 @@ namespace ClubManagementUI.HomePageAdmin
 
             _isRefreshingGrid = false;
         }
-        private void FillComboBox()
-        {
-            ClubIdComBox.ItemsSource = _clubService.GetAllClub();
-            ClubIdComBox.DisplayMemberPath = "ClubName"; //hiển thị cột nào
-            ClubIdComBox.SelectedValuePath = "ClubId"; //lấy id để ném làm fk của user
-        }
-        private void FillElements(Report x)
-        {
-            if (x == null)
-            {
-                return;
-            }
-            ReportIdTextBox.Text = x.ReportId.ToString();
-            ReportIdTextBox.IsEnabled = false;
-
-            SemesterTextBox.Text = x.Semester;
-            MemberChangesTextBox.Text = x.MemberChanges;
-            EventSummaryTextBox.Text = x.EventSummary;
-            ParticipationStatusTextBox.Text = x.ParticipationStats;
-            CreatedDateDatePic.Text = x.CreatedDate.ToString();
-            ClubIdComBox.SelectedValue = x.ClubId;
-        }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            FillComboBox();
             FillDataGird();
         }
 
@@ -79,32 +55,6 @@ namespace ClubManagementUI.HomePageAdmin
                 return;
             }
             _reportSelect = selected;
-            FillElements(_reportSelect);
-        }
-
-        private void SaveReportButton_Click(object sender, RoutedEventArgs e)
-        {
-
-            Report newReport = new Report();
-
-            newReport.Semester = SemesterTextBox.Text; ;
-            newReport.ParticipationStats = ParticipationStatusTextBox.Text;
-            newReport.EventSummary = EventSummaryTextBox.Text;
-            newReport.MemberChanges = MemberChangesTextBox.Text;
-            newReport.CreatedDate = CreatedDateDatePic.SelectedDate.Value;
-            newReport.ClubId = (int)ClubIdComBox.SelectedValue;
-
-            if (_reportSelect is null)
-            {
-                MessageBox.Show("Please select a row/ an report before delete", "Select a row", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                return;
-            }
-
-            newReport.ReportId = _reportSelect.ReportId;
-            _reportService.UpdateReport(newReport);
-            ClearForm();
-            _reportSelect = null;
-            FillDataGird();
         }
 
         private void DeleteReportButton_Click(object sender, RoutedEventArgs e)
@@ -122,31 +72,8 @@ namespace ClubManagementUI.HomePageAdmin
                 return;
             }
             _reportService.DeleteReport(selected);
-            ClearForm();
             _reportSelect = null;
             FillDataGird();
-        }
-
-        private void ResetReportButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (_reportSelect == null)
-            {
-                ClearForm();
-            }
-            else
-            {
-                FillElements(_reportSelect);
-            }
-        }
-        private void ClearForm()
-        {
-            ReportIdTextBox.Text = "";
-            SemesterTextBox.Text = "";
-            EventSummaryTextBox.Text = "";
-            MemberChangesTextBox.Text = "";
-            ParticipationStatusTextBox.Text = "";
-            CreatedDateDatePic.Text = "";
-            ClubIdComBox.SelectedIndex = -1;
         }
     }
 }

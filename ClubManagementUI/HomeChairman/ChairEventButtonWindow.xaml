@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="ClubManagementUI.HomeChairman.ChairEventButtonWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClubManagementUI.HomeChairman"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded">
+    <Grid Background="white">
+        <Rectangle HorizontalAlignment="Center" Height="57"  Margin="0,54,0,0" VerticalAlignment="Top" Width="802"
+    RadiusX="10" RadiusY="10" Fill="#C0C0C0" Stroke="Transparent"/>
+        <Label Content="Tên:" HorizontalAlignment="Left" Margin="113,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.643,0.636" Height="33" Width="47" FontSize="16" />
+        <Border CornerRadius="8" BorderBrush="Gray" BorderThickness="1" Background="White" Width="271" Height="27" 
+         Margin="149,66,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="EventNameSearchTextBox" Text="" FontSize="17" Background="Transparent" BorderThickness="0" Padding="5,2"/>
+        </Border>
+
+        <Label Content="Ngày diễn ra:" HorizontalAlignment="Left" Margin="428,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,0.578" Height="33" Width="115" FontSize="16"/>
+        <Border CornerRadius="8" BorderBrush="Gray" BorderThickness="1" Background="White" Width="220" Height="27" 
+         Margin="535,66,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top">
+            <DatePicker x:Name="EventDateSearchDatePic" FontSize="17" Background="Transparent" BorderThickness="0" Padding="5,2"/>
+        </Border>
+
+        <TextBlock Text="Tạo sự kiện" FontSize="28" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="398,6,310,0"/>
+
+        <DataGrid x:Name="EventDataGird" Margin="33,120,13,282" RenderTransformOrigin="0.5,0.5" SelectionMode="Single" 
+           AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="EventDataGird_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="EventId" Width="50" Binding="{Binding EventId}"/>
+                <DataGridTextColumn Header="EventName" Width="200" Binding="{Binding EventName}"/>
+                <DataGridTextColumn Header="Description" Width="200" Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="EventDate" Width="200" Binding="{Binding EventDate}"/>
+                <DataGridTextColumn Header="Location" Width="100" Binding="{Binding Location}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Content="EventName:" HorizontalAlignment="Left" Margin="15,533,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="EventNameTextBox" HorizontalAlignment="Left" Margin="141,525,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+        <Label Content="Description:" HorizontalAlignment="Left" Margin="17,462,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="DescriptionTextBox" HorizontalAlignment="Left" Margin="138,460,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+        <Label Content="EventDate:" HorizontalAlignment="Left" Margin="495,521,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <xctk:DateTimePicker x:Name="dateTimePicker"  Value="{Binding SelectedDateTime, Mode=TwoWay}" Format="Custom" FormatString="MM/dd/yyyy HH:mm" 
+                             Margin="606,518,67,138" Width="317" FontSize="17" Height="44"/>
+        <Label Content="Location:" HorizontalAlignment="Left" Margin="510,457,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
+        <TextBox x:Name="LocationTextBox" HorizontalAlignment="Left" Margin="604,454,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317" FontSize="17" Height="44"/>
+
+        <Button x:Name="AddEventButton" Content="Lưu" HorizontalAlignment="Left" Margin="306,623,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="AddEventButton_Click" />
+        <Button x:Name="DeleteEventButton" Content="Xóa" HorizontalAlignment="Left" Margin="438,624,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="DeleteEventButton_Click"/>
+        <Button x:Name="ResetEventButton" Content="Reset" HorizontalAlignment="Left" Margin="573,624,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="ResetEventButton_Click"/>
+        <Button x:Name="SearchEventButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="769,63,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="SearchEventButton_Click"/>
+
+    </Grid>
+</UserControl>

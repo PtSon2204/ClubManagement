@@ -18,6 +18,12 @@ namespace ClubManagement.DAL.Repositories
             return _context.Events.Include("Club").ToList();
         }
 
+        public List<Event> GetEventInClubId(int clubId)
+        {
+            _context = new();
+            return _context.Events.Where(x => x.ClubId == clubId).ToList();
+        }
+
         public void Add(Event eventA)
         {
             _context = new();

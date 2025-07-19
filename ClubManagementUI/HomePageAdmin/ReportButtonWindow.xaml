@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded">
     <Grid Background="white">
-        <Rectangle HorizontalAlignment="Center" Height="57"  Margin="0,54,0,0" VerticalAlignment="Top" Width="914"
+        <Rectangle HorizontalAlignment="Center" Height="67"  Margin="0,54,0,0" VerticalAlignment="Top" Width="914"
        RadiusX="10" RadiusY="10" Fill="#C0C0C0" Stroke="Transparent"/>
         <Label Content="Tên clb:" HorizontalAlignment="Left" Margin="44,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.643,0.636" Height="33" Width="64" FontSize="16" />
         <Border CornerRadius="8" BorderBrush="Gray" BorderThickness="1" Background="White" Width="173" Height="27" 
@@ -29,7 +29,7 @@
 
         <TextBlock Text="Quản lý báo cáo" FontSize="28" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="340,4,368,0"/>
 
-        <DataGrid x:Name="ReportDataGird" Margin="33,120,13,282" RenderTransformOrigin="0.5,0.5" SelectionMode="Single" 
+        <DataGrid x:Name="ReportDataGird" Margin="33,145,13,113" RenderTransformOrigin="0.5,0.5" SelectionMode="Single" 
               AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="ReportDataGird_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ReportId" Width="70" Binding="{Binding ReportId}"/>
@@ -42,31 +42,9 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Label Content="ReportId:" HorizontalAlignment="Left" Margin="22,454,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
-        <TextBox x:Name="ReportIdTextBox" HorizontalAlignment="Left" Margin="112,449,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" FontSize="17" Height="44" IsEnabled="False"/>
-
-        <Label Content="Semester:" HorizontalAlignment="Left" Margin="14,519,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
-        <TextBox x:Name="SemesterTextBox" HorizontalAlignment="Left" Margin="113,519,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152" FontSize="17" Height="44"/>
-
-        <Label Content="CreatedDate:" HorizontalAlignment="Left" Margin="7,590,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
-        <DatePicker x:Name="CreatedDateDatePic" HorizontalAlignment="Left" Margin="133,584,0,0" Text="" VerticalAlignment="Top" Width="214" FontSize="17" Height="44"/>
-
-        <Label Content="EventSummary:" HorizontalAlignment="Left" Margin="17,653,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold" RenderTransformOrigin="0.332,0.754"/>
-        <TextBox x:Name="EventSummaryTextBox" HorizontalAlignment="Left" Margin="172,645,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="223" FontSize="17" Height="44"/>
-
-        <Label Content="MemberChanges:" HorizontalAlignment="Left" Margin="283,520,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
-        <TextBox x:Name="MemberChangesTextBox" HorizontalAlignment="Left" Margin="444,515,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" FontSize="17" Height="44"/>
-
-        <Label Content="ParticipationStatus:" HorizontalAlignment="Left" Margin="353,588,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold" Width="174"/>
-        <TextBox x:Name="ParticipationStatusTextBox" HorizontalAlignment="Left" Margin="536,579,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" FontSize="17" Height="44"/>
-
-        <Label Content="ClubID:" HorizontalAlignment="Left" Margin="314,453,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="bold"/>
-        <ComboBox x:Name="ClubIdComBox" HorizontalAlignment="Left" Margin="395,445,0,0" VerticalAlignment="Top" Width="195" FontSize="17" Height="44"/>
-
-        <Button x:Name="SaveReportButton" Content="Lưu" HorizontalAlignment="Left" Margin="445,648,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="SaveReportButton_Click" />
-        <Button x:Name="DeleteReportButton" Content="Xóa" HorizontalAlignment="Left" Margin="556,647,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="DeleteReportButton_Click" />
-        <Button x:Name="ResetReportButton" Content="Reset" HorizontalAlignment="Left" Margin="664,645,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="ResetReportButton_Click" />
+        <Button x:Name="DeleteReportButton" Content="Xóa" HorizontalAlignment="Left" Margin="576,621,0,0" VerticalAlignment="Top" Height="42" Width="121" Style="{StaticResource FilterButtonStyle}" Click="DeleteReportButton_Click" />
         <Button x:Name="SearchReportButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="835,65,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}"/>
+        <Button x:Name="ExportEvent" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" Margin="725,623,145,37" />
 
     </Grid>
 </UserControl>

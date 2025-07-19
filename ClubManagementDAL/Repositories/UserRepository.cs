@@ -38,7 +38,6 @@ namespace ClubManagement.DAL.Repositories
             }
         }
 
-
         public List<User> GetAll()
         {
             _context = new();

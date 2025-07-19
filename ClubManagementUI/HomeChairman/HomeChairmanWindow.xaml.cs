@@ -41,5 +41,20 @@ namespace ClubManagementUI.HomeChairman
         {
             MainContent.Content = new UserButtonWindow(GetMember);
         }
+
+        private void EventButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ChairEventButtonWindow(GetMember);
+        }
+
+        private void ChangePass_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ChairChangePassWindow(GetMember);
+        }
+
+        private void ViewReport_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ViewReportButtonWindow(GetMember);
+        }
     }
 }
