@@ -17,6 +17,15 @@ namespace ClubManagement.DLL.Services
             return _repo.GetAll();
         }
 
+        public List<EventParticipant> GetAllEventParByClubId(int clubId)
+        {
+            return _repo.GetAllEventParByClubId(clubId);
+        }
+
+        public List<string> GetAllEventStatus()
+        {
+            return _repo.GetAllStatus();
+        }
         public void AddEventPar(EventParticipant x)
         {
             _repo.Add(x);

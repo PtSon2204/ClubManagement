@@ -16,6 +16,7 @@ using ClubManagement.DLL.Services;
 using ClubManagementUI.HomeChairman;
 using ClubManagementUI.HomePage;
 using ClubManagementUI.HomePageAdmin;
+using ClubManagementUI.HomePageVicechairman;
 using ClubManagementUI.Log;
 
 namespace ClubManagementUI
@@ -58,18 +59,15 @@ namespace ClubManagementUI
                     break;
 
                 case "chairman":
-                    int clubId = account.ClubId.Value; // Đảm bảo User có thuộc tính ClubId
                     var chairmanWindow = new HomeChairmanWindow();  // hoặc truyền luôn user nếu muốn
                     chairmanWindow.GetMember = account;
                     chairmanWindow.Show();
                     break;
 
                 case "vicechairman":
-
-                    break;
-
-                case "teamleader":
-
+                    var viceChairmanWindow = new HomeVicechairmanWindow();
+                    viceChairmanWindow.GetMember = account;
+                    viceChairmanWindow.Show();
                     break;
 
                 case "member":

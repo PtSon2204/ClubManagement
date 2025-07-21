@@ -16,15 +16,15 @@
 
         <Label Content="Email: " HorizontalAlignment="Left" Margin="605,220,0,0" VerticalAlignment="Top" Height="54" Width="90"
        Background="Transparent" Foreground="Black" FontSize="25" FontWeight="Bold"/>
-        <TextBox x:Name="EmailTextBoxLogin" HorizontalAlignment="Left" Margin="705,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" Height="44" FontSize="20"/>
+        <TextBox x:Name="EmailTextBoxLogin" HorizontalAlignment="Left" Margin="705,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" Height="44" FontSize="20" TabIndex="0"/>
 
         <Label Content="Mật khẩu: " HorizontalAlignment="Left" Margin="555,308,0,0" VerticalAlignment="Top" Height="46" Width="130"
        Background="Transparent" Foreground="Black" FontSize="25" FontWeight="Bold"/>
-        <PasswordBox x:Name="PasswordBoxLogin" HorizontalAlignment="Left" Margin="700,312,0,0" VerticalAlignment="Top" Width="440" Height="47"/>
+        <PasswordBox x:Name="PasswordBoxLogin" HorizontalAlignment="Left" Margin="700,312,0,0" VerticalAlignment="Top" Width="440" Height="47" TabIndex="1"/>
 
-        <Button x:Name="LoginButton" Content="Đăng nhập" HorizontalAlignment="Left" Margin="736,420,0,0" VerticalAlignment="Top" Height="47" Width="140" Style="{StaticResource StyleLoginButtonWindow}" Click="LoginButton_Click"/>
-        <Button x:Name="CancelButton" Content="Thoát" HorizontalAlignment="Left" Margin="914,419,0,0" VerticalAlignment="Top" Height="47" Width="140" Style="{StaticResource StyleLoginButtonWindow}" RenderTransformOrigin="0.571,0.445" Click="CancelButton_Click"/>
-        <Image Margin="-376,0,315,9" Source="pack://application:,,,/Login/logoLogin.png" Stretch="Fill"/>
+        <Button x:Name="LoginButton" Content="Đăng nhập" HorizontalAlignment="Left" Margin="736,420,0,0" VerticalAlignment="Top" Height="47" Width="140" Style="{StaticResource StyleLoginButtonWindow}" Click="LoginButton_Click" TabIndex="2"/>
+        <Button x:Name="CancelButton" Content="Thoát" HorizontalAlignment="Left" Margin="914,419,0,0" VerticalAlignment="Top" Height="47" Width="140" Style="{StaticResource StyleLoginButtonWindow}" RenderTransformOrigin="0.571,0.445" Click="CancelButton_Click" TabIndex="3"/>
+        <Image Margin="-76,124,621,106" Source="pack://application:,,,/Login/logoLogin.png" Stretch="Fill"/>
         <Button x:Name="ForgetPass" Content="Quên mật khẩu?" Background="Transparent" Foreground="Black" BorderThickness="0" FontSize="20" Cursor="Hand" Margin="975,365,45,156" FontWeight="Bold" Click="ForgetPass_Click"/>
 
     </Grid>

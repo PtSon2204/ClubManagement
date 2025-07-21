@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClubManagement.DAL.Entities;
 
 namespace ClubManagementUI.HomePageVicechairman
 {
@@ -19,6 +20,7 @@ namespace ClubManagementUI.HomePageVicechairman
     /// </summary>
     public partial class HomeVicechairmanWindow : Window
     {
+        public User? GetMember { get; set; } = null;
         public HomeVicechairmanWindow()
         {
             InitializeComponent();
@@ -33,6 +35,21 @@ namespace ClubManagementUI.HomePageVicechairman
                 login.Show();
                 this.Close();
             }
+        }
+
+        private void ReportButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ViceReportButtonWindow(GetMember);
+        }
+
+        private void AttendanceButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ViceAcceptMemberWindow(GetMember);
+        }
+
+        private void ChangePassButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ViceChangePassWindow(GetMember);
         }
     }
 }
