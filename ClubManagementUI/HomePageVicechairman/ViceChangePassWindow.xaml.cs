@@ -14,19 +14,18 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
-using Xceed.Wpf.Toolkit;
 
-namespace ClubManagementUI.HomeChairman
+namespace ClubManagementUI.HomePageVicechairman
 {
     /// <summary>
-    /// Interaction logic for ChairChangePassWindow.xaml
+    /// Interaction logic for ViceChangePassWindow.xaml
     /// </summary>
-    public partial class ChairChangePassWindow : UserControl
+    public partial class ViceChangePassWindow : UserControl
     {
         private User? getMember;
         private UserService _userService = new();
 
-        public ChairChangePassWindow(User? getMember)
+        public ViceChangePassWindow(User? getMember)
         {
             InitializeComponent();
             this.getMember = getMember;

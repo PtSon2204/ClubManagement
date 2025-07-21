@@ -24,8 +24,6 @@ namespace ClubManagementUI.HomePageAdmin
     public partial class EventParticipantsButtonWindow : UserControl
     {
         private EventParticipantService _eventParService = new();
-        private UserService _userService = new();
-        private EventService _eventService = new();
         private EventParticipant? _eventParSelect = null;
         private bool _isRefreshingGrid = false;
         public EventParticipantsButtonWindow()

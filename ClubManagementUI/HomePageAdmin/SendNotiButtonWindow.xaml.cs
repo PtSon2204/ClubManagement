@@ -30,7 +30,7 @@ namespace ClubManagementUI.HomePageAdmin
         {
             string to = EmailSendTextBox.Text.Trim();
             string content = ContentSendTextBox.Text.Trim();
-            string subject = "Thông báo từ hệ thống CLB"; // hoặc cho người nhập
+            string subject = "Thông báo từ hệ thống CLB."; // hoặc cho người nhập
 
             if (string.IsNullOrWhiteSpace(to) || string.IsNullOrWhiteSpace(content))
             {

@@ -22,9 +22,9 @@
                 <TextBlock Text="Welcome Vicechairman" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <Button x:Name="UserButton" Content="Quản lý người dùng" Style="{StaticResource MenuButtonStyle}" />
-
-
+            <Button x:Name="ReportButton" Content="Báo cáo sự kiện" Style="{StaticResource MenuButtonStyle}" Click="ReportButton_Click" />
+            <Button x:Name="AttendanceButton" Content="Duyệt thành viên vào sự kiện" Style="{StaticResource MenuButtonStyle}" Width="231" Margin="0,0,0,0" Click="AttendanceButton_Click"/>
+            <Button x:Name="ChangePassButton" Content="Đổi mật khẩu" Style="{StaticResource MenuButtonStyle}" Click="ChangePassButton_Click" />
         </StackPanel>
 
         <!-- MAIN CONTENT -->
