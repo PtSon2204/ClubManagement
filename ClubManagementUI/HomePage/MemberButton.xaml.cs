@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ClubManagement.DAL.Entities;
+using ClubManagement.DAL.Repositories;
 using ClubManagement.DLL.Services;
 
 namespace ClubManagementUI.HomePage
@@ -19,31 +21,67 @@ namespace ClubManagementUI.HomePage
 
     public partial class MemberButton : UserControl
     {
-        private ClubService _clubService = new();
-
-        public MemberButton()
+        private EventParticipantService _eventParticipantService = new();
+        private EventService _eventService = new();
+        private User account;
+        public MemberButton(User account)
         {
             InitializeComponent();
-            LoadClubList();
+            this.account = account;
         }
 
-        private void LoadClubList()
+        private void FillDataGrid()
         {
-            var clubs = _clubService.GetAllClub();
-            ClubDataGrid.ItemsSource = clubs;
+            EventDataGrid.ItemsSource = null;
+            EventDataGrid.ItemsSource = _eventService.GetAllEventByClubId(account.ClubId.Value);
         }
-
         private void JoinButton_Click(object sender, RoutedEventArgs e)
         {
-            var button = sender as Button;
-            if (button?.Tag is int clubId)
+            try
             {
-                // TODO: Lấy UserID hiện tại từ session hoặc đăng nhập
-                int currentUserId = 1; // Tạm hardcode để test
+                var button = sender as Button;
+                Console.WriteLine($"Tag value: {button?.Tag}, getMember: {account}");
 
-                // TODO: Thêm User vào Club, ví dụ tạo ClubUser hoặc Update User.ClubID
-                MessageBox.Show($"Bạn đã tham gia câu lạc bộ ID: {clubId}");
+                if (button?.Tag is int eventId && account != null)
+                {
+                    Console.WriteLine($"EventId: {eventId}, UserId: {account.UserId}, ClubId: {account.ClubId}");
+
+                    var existed = _eventParticipantService.GetAllEventPar()
+                        .Any(x => x.EventId == eventId && x.UserId == account.UserId);
+
+                    if (existed)
+                    {
+                        MessageBox.Show("Bạn đã đăng ký sự kiện này rồi!");
+                        return;
+                    }
+
+                    EventParticipant participant = new EventParticipant
+                    {
+                        UserId = account.UserId,
+                        EventId = eventId,
+                        Status = "Pending"
+                    };
+                    _eventParticipantService.AddEventPar(participant);
+
+                    MessageBox.Show("Đăng ký sự kiện thành công!");
+                    FillDataGrid();
+                }
+                else
+                {
+                    MessageBox.Show("Lỗi: Không thể lấy thông tin sự kiện hoặc thành viên! " +
+                        $"Tag is int: {button?.Tag is int}, getMember is null: {account == null}");
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi đăng ký sự kiện: {ex.Message}");
+                Console.WriteLine(ex.ToString());
+            }
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            FillDataGrid();
         }
     }
 }

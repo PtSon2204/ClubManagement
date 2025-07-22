@@ -20,10 +20,13 @@ namespace ClubManagementUI.HomePageAdmin
     /// </summary>
     public partial class HomeAdminWindow : Window
     {
-        public User? GetMember { get; set; } = null;
-        public HomeAdminWindow()
+        private User account;
+        public HomeAdminWindow(User account)
         {
             InitializeComponent();
+            this.account = account;
+            string[] name = account.FullName.Split(" ");
+            TitleTextBox.Text = "Welcome " + $"{name[name.Length - 1]}";
         }
 
         private void Logout_Click(object sender, RoutedEventArgs e)

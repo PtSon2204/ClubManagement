@@ -19,10 +19,11 @@
         <StackPanel Background="#2E2E2E" Grid.Column="0">
             <StackPanel Margin="10">
                 <Image Source="/HomePageAdmin/HomePageAdmin.png" Width="198" Height="147" Margin="0,10" HorizontalAlignment="Center"/>
-                <TextBlock Text="Welcome Member" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
+                <TextBlock x:Name="TitleTextBox" Text="" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <Button x:Name="MemberButton" Content="Danh sách câu lạc bộ" Style="{StaticResource MenuButtonStyle}" Click="MemberButton_Click_1"  />
+            <Button x:Name="MemberButton" Content="Danh sách sự kiện" Style="{StaticResource MenuButtonStyle}" Click="MemberButton_Click_1"  />
+            <Button x:Name="ChangePass" Content="Đổi mật khẩu" Style="{StaticResource MenuButtonStyle}" Click="MemberButton_Click_2"  />
 
 
         </StackPanel>

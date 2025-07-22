@@ -37,7 +37,7 @@
         </DataGrid>
 
         <Button x:Name="SearchReportButton" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="849,65,0,0" VerticalAlignment="Top" Height="36" Width="89" Style="{StaticResource CRUDButtonStyle}" Click="SearchReportButton_Click"/>
-        <Button x:Name="ExportEvent" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" Margin="458,606,412,54" RenderTransformOrigin="-0.587,0.356" />
+        <Button x:Name="ExportEvent" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" Margin="458,606,412,54" RenderTransformOrigin="-0.587,0.356" Click="ExportEvent_Click" />
 
     </Grid>
 </UserControl>

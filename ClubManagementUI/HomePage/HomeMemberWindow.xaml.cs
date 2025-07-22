@@ -20,16 +20,17 @@ namespace ClubManagementUI.HomePage
     /// Interaction logic for HomeWindow.xaml
     /// </summary>
 
-
-
     public partial class HomeWindow : Window
     {
-        public User? GetMember { get; set; } = null;
-        public HomeWindow()
+        private User account;
+        public HomeWindow(User account)
         {
             InitializeComponent();
+            this.account = account;
+            string[] name = account.FullName.Split(" ");
+            TitleTextBox.Text = "Welcome " + $"{name[name.Length - 1]}";
         }
-
+        
         //hàm logout
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
@@ -41,12 +42,14 @@ namespace ClubManagementUI.HomePage
                 this.Close();
             }
         }
-
-
-
         private void MemberButton_Click_1(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new MemberButton();
+            MainContent.Content = new MemberButton(account);
+        }
+
+        private void MemberButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new MemberChangePassButton(account);
         }
     }
 }
