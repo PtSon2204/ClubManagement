@@ -10,10 +10,11 @@
         <Label Content="Danh sách sự kiện " HorizontalAlignment="Left" Margin="318,7,0,0" VerticalAlignment="Top" Height="69" Width="416" FontSize =" 40"  />
         <DataGrid x:Name="EventDataGrid" AutoGenerateColumns="False" Margin="28,85,12,125" CanUserAddRows="False" IsReadOnly="True"  >
             <DataGrid.Columns>
+                <DataGridTextColumn Header="Tên clb" Binding="{Binding Club.ClubName}" Width="100"/>
                 <DataGridTextColumn Header="Tên sự kiện" Binding="{Binding EventName}" Width="150"/>
-                <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" Width="300"/>
+                <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" Width="200"/>
                 <DataGridTextColumn Header="Ngày diễn ra" Binding="{Binding EventDate}" Width="150"/>
-                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Location}" Width="200"/>
+                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Location}" Width="150"/>
                 <DataGridTemplateColumn Header="Tham gia" Width="140">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

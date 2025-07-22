@@ -27,6 +27,8 @@ public partial class ClubManagementContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<UserClub> UserClubs { get; set; }
+
     private string? GetConnectionString()
     {
         IConfiguration configuration = new ConfigurationBuilder()
@@ -113,6 +115,25 @@ public partial class ClubManagementContext : DbContext
             entity.HasOne(d => d.Club).WithMany(p => p.Users)
                 .HasForeignKey(d => d.ClubId)
                 .HasConstraintName("FK__Users__ClubID__4D94879B");
+        });
+
+        modelBuilder.Entity<UserClub>(entity =>
+        {
+            entity.HasKey(e => e.UserClubId).HasName("PK__UserClub__9BFD3C254EB3CAC2");
+
+            entity.Property(e => e.UserClubId).HasColumnName("UserClubID");
+            entity.Property(e => e.ClubId).HasColumnName("ClubID");
+            entity.Property(e => e.Role).HasMaxLength(50);
+            entity.Property(e => e.Status).HasMaxLength(20);
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+
+            entity.HasOne(d => d.Club).WithMany(p => p.UserClubs)
+                .HasForeignKey(d => d.ClubId)
+                .HasConstraintName("FK__UserClubs__ClubI__17036CC0");
+
+            entity.HasOne(d => d.User).WithMany(p => p.UserClubs)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK__UserClubs__UserI__160F4887");
         });
 
         OnModelCreatingPartial(modelBuilder);

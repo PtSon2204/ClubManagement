@@ -20,4 +20,6 @@ public partial class User
     public virtual Club? Club { get; set; }
 
     public virtual ICollection<EventParticipant> EventParticipants { get; set; } = new List<EventParticipant>();
+
+    public virtual ICollection<UserClub> UserClubs { get; set; } = new List<UserClub>();
 }

@@ -23,6 +23,12 @@ namespace ClubManagement.DAL.Repositories
             _context = new();
             return _context.EventParticipants.Include("Event").Include("User").Where(x => x.Event.ClubId == clubId).ToList();
         }
+
+        public List<EventParticipant> GetAllEventParByClubIdUserId(int clubId, int userId)
+        {
+            _context = new();
+            return _context.EventParticipants.Include("Event").Include("User").Where(x => x.Event.ClubId == clubId && x.UserId == userId).ToList();
+        }
         public List<string> GetAllStatus()
         {
             _context = new();

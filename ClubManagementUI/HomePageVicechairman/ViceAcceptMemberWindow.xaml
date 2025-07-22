@@ -26,7 +26,6 @@
         <DataGrid x:Name="EventParDataGird" Margin="33,120,13,282" RenderTransformOrigin="0.5,0.5" SelectionMode="Single" 
               AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="EventParDataGird_SelectionChanged" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Width="50" Binding="{Binding EventParticipantId}"/>
                 <DataGridTextColumn Header="Fullname" Width="200" Binding="{Binding User.FullName}"/>
                 <DataGridTextColumn Header="Email" Width="200" Binding="{Binding User.Email}"/>
                 <DataGridTextColumn Header="EventName" Width="200" Binding="{Binding Event.EventName}"/>
