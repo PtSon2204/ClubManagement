@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagement.DLL.Services
@@ -17,7 +18,6 @@ namespace ClubManagement.DLL.Services
         {
             return _repo.GetAll();
         }
-
         public void AddClub(Club club)
         {
             _repo.Add(club);
@@ -62,6 +62,26 @@ namespace ClubManagement.DLL.Services
 
             return result;
         }
+        public List<ClubStatisticDTO> GetClubTotalMember()
+        {
+            return _repo.GetClubMemberStatistics();
+        }
+
+        public List<ClubStatisticDTO> GetClubTotalEvent()
+        {
+            return _repo.GetClubEventStatistics();
+        }
+
+        public List<ClubStatisticDTO> GetClubStatisticMemberByClubId(int clubId)
+        {
+            return _repo.GetClubTotalMemberByClubId(clubId);
+        }
+
+        public List<ClubStatisticDTO> GetClubStatisticEventByClubId(int clubId)
+        {
+            return _repo.GetClubTotalEventByClubId(clubId);
+        }
+
 
         //Cách 2:
         //public List<Club> SearchClubByNameOrEstabDate(string name, DateOnly? estabDate)
