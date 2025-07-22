@@ -21,7 +21,7 @@ namespace ClubManagement.DAL.Repositories
         public List<Event> GetEventInClubId(int clubId)
         {
             _context = new();
-            return _context.Events.Where(x => x.ClubId == clubId).ToList();
+            return _context.Events.Include("Club").Where(x => x.ClubId == clubId).ToList();
         }
 
         public void Add(Event eventA)

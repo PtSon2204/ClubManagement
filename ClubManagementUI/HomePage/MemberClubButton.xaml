@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="ClubManagementUI.HomePage.MemberClubButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClubManagementUI.HomePage"
+             mc:Ignorable="d" 
+                     d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded">
+    <Grid Background="white">
+        <TextBlock Text="Danh sách câu lạc bộ" FontSize="28" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="353,4,355,0"/>
+
+        <DataGrid x:Name="ClubDataGrid" AutoGenerateColumns="False" Margin="25,75,15,96" CanUserAddRows="False" IsReadOnly="True"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tên câu lạc bộ" Binding="{Binding ClubName}" Width="300"/>
+                <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" Width="300"/>
+                <DataGridTextColumn Header="Thành lập" Binding="{Binding EstablishedDate}" Width="200"/>
+                <DataGridTemplateColumn Header="Tham gia" Width="140">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Join" Click="JoinButton_Click" Tag="{Binding ClubId}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</UserControl>

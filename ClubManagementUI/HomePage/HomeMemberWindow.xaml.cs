@@ -51,5 +51,15 @@ namespace ClubManagementUI.HomePage
         {
             MainContent.Content = new MemberChangePassButton(account);
         }
+
+        private void MemberButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new MemberClubButton(account);
+        }
+
+        private void HistoryEvent_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new MemberEventRegisteredButton(account);
+        }
     }
 }

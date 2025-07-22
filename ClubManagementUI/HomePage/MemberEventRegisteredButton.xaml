@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ClubManagementUI.HomePage.MemberEventRegisteredButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClubManagementUI.HomePage"
+             mc:Ignorable="d" 
+                      d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded" >
+    <Grid Background="white">
+        <Label Content="Lịch sử đã đăng ký sự kiện " HorizontalAlignment="Left" Margin="292,11,0,0" VerticalAlignment="Top" Height="69" Width="507" FontSize =" 40"  />
+        <DataGrid x:Name="EventParDataGrid" AutoGenerateColumns="False" Margin="26,119,14,91" CanUserAddRows="False" IsReadOnly="True"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tên sự kiện" Binding="{Binding Event.EventName}" Width="150"/>
+                <DataGridTextColumn Header="Mô tả" Binding="{Binding Event.Description}" Width="200"/>
+                <DataGridTextColumn Header="Ngày diễn ra" Binding="{Binding Event.EventDate}" Width="150"/>
+                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Event.Location}" Width="150"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

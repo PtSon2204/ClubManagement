@@ -17,5 +17,7 @@ public partial class Club
 
     public virtual ICollection<Report> Reports { get; set; } = new List<Report>();
 
+    public virtual ICollection<UserClub> UserClubs { get; set; } = new List<UserClub>();
+
     public virtual ICollection<User> Users { get; set; } = new List<User>();
 }
