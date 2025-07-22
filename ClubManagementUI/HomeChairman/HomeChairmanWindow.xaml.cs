@@ -20,10 +20,13 @@ namespace ClubManagementUI.HomeChairman
     /// </summary>
     public partial class HomeChairmanWindow : Window
     {
-        public User? GetMember { get; set; } = null;
-        public HomeChairmanWindow()
+        private User account;
+        public HomeChairmanWindow(User account)
         {
             InitializeComponent();
+            this.account = account;
+            string[] name = account.FullName.Split(" ");
+            TitleTextBox.Text = "Welcome " + $"{name[name.Length - 1]}";
         }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
@@ -39,22 +42,22 @@ namespace ClubManagementUI.HomeChairman
 
         private void UserButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new UserButtonWindow(GetMember);
+            MainContent.Content = new UserButtonWindow(account);
         }
 
         private void EventButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ChairEventButtonWindow(GetMember);
+            MainContent.Content = new ChairEventButtonWindow(account);
         }
 
         private void ChangePass_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ChairChangePassWindow(GetMember);
+            MainContent.Content = new ChairChangePassWindow(account);
         }
 
         private void ViewReport_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ViewReportButtonWindow(GetMember);
+            MainContent.Content = new ViewReportButtonWindow(account);
         }
     }
 }

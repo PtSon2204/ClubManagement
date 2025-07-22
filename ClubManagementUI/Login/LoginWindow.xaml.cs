@@ -53,26 +53,22 @@ namespace ClubManagementUI
             switch (account.Role.ToLower())
             {
                 case "admin":
-                    var adminWindow = new HomeAdminWindow();
-                    adminWindow.GetMember = account;
+                    var adminWindow = new HomeAdminWindow(account);
                     adminWindow.Show();
                     break;
 
                 case "chairman":
-                    var chairmanWindow = new HomeChairmanWindow();  // hoặc truyền luôn user nếu muốn
-                    chairmanWindow.GetMember = account;
+                    var chairmanWindow = new HomeChairmanWindow(account);  // hoặc truyền luôn user nếu muốn
                     chairmanWindow.Show();
                     break;
 
                 case "vicechairman":
-                    var viceChairmanWindow = new HomeVicechairmanWindow();
-                    viceChairmanWindow.GetMember = account;
+                    var viceChairmanWindow = new HomeVicechairmanWindow(account);
                     viceChairmanWindow.Show();
                     break;
 
                 case "member":
-                    var memberWindow = new HomeWindow();
-                    memberWindow.GetMember = account;
+                    var memberWindow = new HomeWindow(account);
                     memberWindow.Show();
                     break;
 

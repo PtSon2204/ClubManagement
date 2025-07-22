@@ -20,10 +20,12 @@ namespace ClubManagementUI.HomePageVicechairman
     /// </summary>
     public partial class HomeVicechairmanWindow : Window
     {
-        public User? GetMember { get; set; } = null;
-        public HomeVicechairmanWindow()
+        private User account;
+
+        public HomeVicechairmanWindow(User account)
         {
             InitializeComponent();
+            this.account = account;
         }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
@@ -39,17 +41,17 @@ namespace ClubManagementUI.HomePageVicechairman
 
         private void ReportButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ViceReportButtonWindow(GetMember);
+            MainContent.Content = new ViceReportButtonWindow(account);
         }
 
         private void AttendanceButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ViceAcceptMemberWindow(GetMember);
+            MainContent.Content = new ViceAcceptMemberWindow(account);
         }
 
         private void ChangePassButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new ViceChangePassWindow(GetMember);
+            MainContent.Content = new ViceChangePassWindow(account);
         }
     }
 }

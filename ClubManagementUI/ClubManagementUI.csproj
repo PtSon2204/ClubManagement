@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <None Remove="HomePageAdmin\HomePageAdmin.png" />
-    <None Remove="HomePage\management-club-logo.png" />
     <None Remove="Login\logoLogin.png" />
   </ItemGroup>
 
@@ -29,14 +28,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.8.0" />
     <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25104.5739" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="HomePageAdmin\HomePageAdmin.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="HomePage\management-club-logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Login\logoLogin.png">
