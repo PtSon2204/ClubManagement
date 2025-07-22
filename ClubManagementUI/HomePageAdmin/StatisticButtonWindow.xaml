@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d"
-             d:DesignHeight="700" d:DesignWidth="990">
+             d:DesignHeight="700" d:DesignWidth="990" Loaded="UserControl_Loaded">
 
     <Grid Background="White" Margin="10">
         <Grid.ColumnDefinitions>
@@ -20,21 +20,21 @@
                 <TextBlock Text="Thống kê thành viên theo CLB" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
                     <Label Content="Club:" VerticalAlignment="Center" FontSize="14"/>
-                    <ComboBox x:Name="ClubCombox" Width="80" Margin="8,0" FontSize="14"/>
-                    <Button x:Name="StatisticClub" Content="Thống kê" Width="90" Height="26" FontSize="13" Style="{StaticResource FilterButtonStyle}" />
+                    <ComboBox x:Name="ClubCombox" Width="126" Margin="8,0" FontSize="14"/>
+                    <Button x:Name="StatisticClub" Content="Thống kê" Width="90" Height="26" FontSize="13" Style="{StaticResource FilterButtonStyle}" Click="StatisticClub_Click" />
                 </StackPanel>
                 <!--Margin="Left,Top,Right,Bottom"-->
                 <DataGrid x:Name="MemberStatsGrid" AutoGenerateColumns="False" HeadersVisibility="Column" CanUserAddRows="False" FontSize="13"
                           RowHeight="28" Height="259">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="STT" Binding="{Binding Index}" Width="50" />
+                        <DataGridTextColumn Header="STT" Binding="{Binding ClubId}" Width="50" />
                         <DataGridTextColumn Header="Tên CLB" Binding="{Binding ClubName}" Width="*" />
-                        <DataGridTextColumn Header="Số thành viên" Binding="{Binding MemberCount}" Width="100" />
+                        <DataGridTextColumn Header="Số thành viên" Binding="{Binding Count}" Width="100" />
                     </DataGrid.Columns>
                 </DataGrid>
                 <StackPanel Orientation="Horizontal" Margin="0,20,0,8">
-                    <TextBlock Text="Tổng số câu lạc bộ:" FontSize="18" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="10,10,50,0" Width="224"/>
-                    <Button x:Name="ExportClub" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" />
+                    <TextBlock x:Name="TotalClub" Text="" FontSize="18" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="10,10,50,0" Width="224"/>
+                    <Button x:Name="ExportClub" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" Click="ExportClub_Click" />
                 </StackPanel>
             </StackPanel>
         </Border>
@@ -44,24 +44,22 @@
             <StackPanel>
                 <TextBlock Text="Thống kê sự kiện theo CLB" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
-                    <Label Content="Từ:" VerticalAlignment="Center" FontSize="14"/>
-                    <DatePicker x:Name="FromDateEvent" Width="117" Margin="8,0" FontSize="14"/>
-                    <Label Content="Đến:" VerticalAlignment="Center" FontSize="14"/>
-                    <DatePicker x:Name="ToDateEvent" Width="112" Margin="8,0" FontSize="14"/>
-                    <Button x:Name="StatisticEvent" Content="Thống kê" Width="90" Height="26" FontSize="13" Style="{StaticResource FilterButtonStyle}" />
+                    <Label Content="Club:" VerticalAlignment="Center" FontSize="14"/>
+                    <ComboBox x:Name="ClubCombox2" Width="174" Margin="8,0" FontSize="14"/>
+                    <Button x:Name="StatisticEvent" Content="Thống kê" Width="90" Height="26" FontSize="13" Style="{StaticResource FilterButtonStyle}" Click="StatisticEvent_Click" />
                 </StackPanel>
 
                 <DataGrid x:Name="EventStatsGrid" AutoGenerateColumns="False" HeadersVisibility="Column" CanUserAddRows="False"
                           FontSize="13" RowHeight="28" Height="260">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="STT" Binding="{Binding Index}" Width="50" />
+                        <DataGridTextColumn Header="STT" Binding="{Binding ClubId}" Width="50" />
                         <DataGridTextColumn Header="Tên CLB" Binding="{Binding ClubName}" Width="*" />
-                        <DataGridTextColumn Header="Số sự kiện" Binding="{Binding EventCount}" Width="100" />
+                        <DataGridTextColumn Header="Số sự kiện" Binding="{Binding Count}" Width="100" />
                     </DataGrid.Columns>
                 </DataGrid>
                 <StackPanel Orientation="Horizontal" Margin="0,20,0,8">
-                    <TextBlock Text="Tổng số sự kiện:" FontSize="18" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="10,10,50,0" Width="224"/>
-                    <Button x:Name="ExportEvent" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" />
+                    <TextBlock x:Name="TotalEvent" Text="" FontSize="18" FontWeight="Bold" Height="42" VerticalAlignment="Top" Margin="10,10,50,0" Width="224"/>
+                    <Button x:Name="ExportEvent" Content="Xuất excel" Width="120" Height="40" FontSize="13" Style="{StaticResource FilterButtonStyle}" Click="ExportEvent_Click" />
                 </StackPanel>
             </StackPanel>
         </Border>
