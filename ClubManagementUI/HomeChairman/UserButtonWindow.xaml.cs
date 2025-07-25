@@ -72,6 +72,19 @@ namespace ClubManagementUI.HomeChairman
 
         private void AddUserButton_Click(object sender, RoutedEventArgs e)
         {
+            string selectedRole = UserRoleComBox.SelectedItem?.ToString();
+            int clubId = getMember.ClubId.Value;
+            if (selectedRole == "Chairman" || selectedRole == "ViceChairman")
+            {
+                int? currentUserId = _userSelect?.UserId;
+
+                if (!Validation.Validate.IsChairmanOrViceExists(clubId, selectedRole, currentUserId))
+                {
+                    MessageBox.Show("This club already has a Chairman or ViceChairman. You cannot assign more than one.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+            }
+
             if (_userSelect != null)
             {
                 _userSelect.FullName = UserNameTextBox.Text;

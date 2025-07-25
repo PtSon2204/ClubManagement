@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagementUI.HomePageAdmin
 {
@@ -67,7 +68,24 @@ namespace ClubManagementUI.HomePageAdmin
         {
             Event newEvent = new Event();
 
-            newEvent.EventName = EventNameTextBox.Text; 
+            if (EventNameTextBox.Text.IsNullOrEmpty() ||
+               DescriptionTextBox.Text.IsNullOrEmpty() ||
+                LocationTextBox.Text.IsNullOrEmpty() ||
+                !EventDateDatePic.SelectedDate.HasValue)
+            {
+                MessageBox.Show("Please enter all required fields!", "Validation", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Kiểm tra ngày sự kiện không ở quá khứ
+            DateTime selectedDate = EventDateDatePic.SelectedDate.Value.Date;
+            if (selectedDate < DateTime.Today)
+            {
+                MessageBox.Show("Event date cannot be in the past!", "Invalid Date", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            newEvent.EventName = EventNameTextBox.Text;
             newEvent.Description = DescriptionTextBox.Text;
             newEvent.Location = LocationTextBox.Text;
             if (EventDateDatePic.SelectedDate.HasValue)

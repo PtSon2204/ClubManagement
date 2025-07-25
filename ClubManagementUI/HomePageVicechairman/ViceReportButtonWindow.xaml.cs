@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagementUI.HomePageVicechairman
 {
@@ -37,7 +38,13 @@ namespace ClubManagementUI.HomePageVicechairman
         {
             Report newReport = new Report();
 
-            newReport.Semester = SemesterTextBox.Text; ;
+            if (SemesterTextBox.Text.IsNullOrEmpty() || ParticipationStatusTextBox.Text.IsNullOrEmpty() || EventSummaryTextBox.Text.IsNullOrEmpty() || MemberChangesTextBox.Text.IsNullOrEmpty() || !CreatedDateDatePic.SelectedDate.HasValue || getMember.ClubId == null)
+            {
+                MessageBox.Show("Please enter full!!!");
+                return;
+            }
+
+            newReport.Semester = SemesterTextBox.Text; 
             newReport.ParticipationStats = ParticipationStatusTextBox.Text;
             newReport.EventSummary = EventSummaryTextBox.Text;
             newReport.MemberChanges = MemberChangesTextBox.Text;

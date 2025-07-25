@@ -7,6 +7,7 @@ using System.Windows;
 using ClubManagement.DAL.Entities;
 using System.Net;
 using System.Net.Mail;
+using ClubManagement.DAL;
 
 namespace ClubManagementUI.Validation
 {
@@ -71,6 +72,15 @@ namespace ClubManagementUI.Validation
             var random = new Random();
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+
+        public static bool IsChairmanOrViceExists(int clubId, string role, int? excludeUserId = null)
+        {
+            using var context = new ClubManagementContext();
+            return context.Users
+                .Any(u => u.ClubId == clubId &&
+                          (u.Role == "Chairman" || u.Role == "ViceChairman") &&
+                          (excludeUserId == null || u.UserId != excludeUserId));
         }
     }
 }
