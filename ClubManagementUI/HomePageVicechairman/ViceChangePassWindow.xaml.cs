@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagementUI.HomePageVicechairman
 {
@@ -33,17 +34,22 @@ namespace ClubManagementUI.HomePageVicechairman
 
         private void SavePassButton_Click(object sender, RoutedEventArgs e)
         {
+            if (OldPassTextBox.Text.IsNullOrEmpty() || NewPassTextBox.Text.IsNullOrEmpty() || CfPassTextBox.Text.IsNullOrEmpty())
+            {
+                MessageBox.Show("Please enter full!!!");
+                return;
+            }
             bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(OldPassTextBox.Text, getMember.Password);
             if (!isPasswordCorrect)
             {
-                System.Windows.MessageBox.Show("OldPassword is incorrect. Please enter again!");
+                MessageBox.Show("OldPassword is incorrect. Please enter again!");
                 return;
             }
             string newPass = NewPassTextBox.Text;
             string cfPass = CfPassTextBox.Text;
             if (newPass != cfPass)
             {
-                System.Windows.MessageBox.Show("New password and confirm password must be the same.");
+                MessageBox.Show("New password and confirm password must be the same.");
                 return;
             }
             getMember.Password = newPass;

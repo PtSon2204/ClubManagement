@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagementUI.HomePage
 {
@@ -33,6 +34,11 @@ namespace ClubManagementUI.HomePage
 
         private void SavePassButton_Click(object sender, RoutedEventArgs e)
         {
+            if (OldPassTextBox.Text.IsNullOrEmpty() || NewPassTextBox.Text.IsNullOrEmpty() || CfPassTextBox.Text.IsNullOrEmpty())
+            {
+                System.Windows.MessageBox.Show("Please enter full!!!");
+                return;
+            }
             bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(OldPassTextBox.Text, account.Password);
             if (!isPasswordCorrect)
             {

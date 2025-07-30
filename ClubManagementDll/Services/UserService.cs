@@ -36,9 +36,20 @@ namespace ClubManagement.DLL.Services
             return _repo.GetAll();
         }
 
+        /*
+         $2a$	Phiên bản thuật toán Bcrypt
+         $2b$	Phiên bản cải tiến, sửa lỗi tràn bộ nhớ nhỏ
+         $2y$	Dành cho hệ thống Unix (BSD), tương đương $2a$ nhưng khác tên
+          11	Cost factor: chạy 2^11 = 2048 vòng lặp
+         X4Tfuz9l3BC2vN5pe0hM5u	Salt (chuỗi ngẫu nhiên, 128-bit)
+         K4/2zEF1D8U8k.X9a3EY6sszTxH9eVS	Mã hash thực sự (kết quả của thuật toán Blowfish)
+         */
         public void AddUser(User user)
         {
-            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            if (!user.Password.StartsWith("$2a$") && !user.Password.StartsWith("$2b$"))
+            {
+                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            }
             _repo.Add(user);
         }
 

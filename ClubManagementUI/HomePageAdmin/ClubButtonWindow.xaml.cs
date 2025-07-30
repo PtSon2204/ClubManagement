@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClubManagement.DAL.Entities;
 using ClubManagement.DLL.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ClubManagementUI.HomePageAdmin
 {
@@ -52,6 +53,12 @@ namespace ClubManagementUI.HomePageAdmin
 
         private void AddClubButton_Click(object sender, RoutedEventArgs e)
         {
+            if (ClubNameTextBox.Text.IsNullOrEmpty() || DescriptionTextBox.Text.IsNullOrEmpty() || !EstablishedDate.SelectedDate.HasValue)
+            {
+                MessageBox.Show("Please enter full!!!");
+                return;
+            }
+
             Club newClub = new Club();
             newClub.ClubName = ClubNameTextBox.Text;
             newClub.Description = DescriptionTextBox.Text;

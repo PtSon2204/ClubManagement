@@ -87,9 +87,50 @@ namespace ClubManagementUI.HomePageVicechairman
 
         private void SaveUserButton_Click(object sender, RoutedEventArgs e)
         {
-            EventParticipant x = _eventParSelect;
-            x.Status = StatusCombox.SelectedItem?.ToString();
-            _eventParService.UpdateEventPar(x);
+            if (_eventParSelect == null)
+            {
+                MessageBox.Show("Please select a user to update status.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            string? newStatus = StatusCombox.SelectedItem?.ToString();
+            if (string.IsNullOrEmpty(newStatus))
+            {
+                MessageBox.Show("Please select a status.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Lấy sự kiện từ EventParticipant
+            var eventInfo = _eventParSelect.Event;
+            if (eventInfo == null)
+            {
+                MessageBox.Show("Event information is missing.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            DateTime today = DateTime.Today;
+            DateTime eventDate = eventInfo.EventDate.Date; // So sánh theo ngày
+
+            // Trường hợp chưa tới ngày sự kiện
+            if (today < eventDate)
+            {
+                if (newStatus == "Attend" || newStatus == "Absent")
+                {
+                    MessageBox.Show("You can only mark Attend/Absent on the event date!", "Invalid Status", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+            }
+
+            // Trường hợp sau ngày sự kiện
+            if (today > eventDate)
+            {
+                MessageBox.Show("You cannot change status after the event date.", "Too Late", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Cập nhật nếu hợp lệ
+            _eventParSelect.Status = newStatus;
+            _eventParService.UpdateEventPar(_eventParSelect);
             ClearForm();
             _eventParSelect = null;
             FillDataGrid();

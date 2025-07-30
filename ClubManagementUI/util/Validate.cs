@@ -7,6 +7,7 @@ using System.Windows;
 using ClubManagement.DAL.Entities;
 using System.Net;
 using System.Net.Mail;
+using ClubManagement.DAL;
 
 namespace ClubManagementUI.Validation
 {
@@ -71,6 +72,33 @@ namespace ClubManagementUI.Validation
             var random = new Random();
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+
+        public static bool IsChairmanOrViceExists(int clubId, string role, int? excludeUserId = null)
+        {
+            using var context = new ClubManagementContext();
+            return context.Users
+                .Any(u => u.ClubId == clubId &&
+                          (u.Role == "Chairman" || u.Role == "ViceChairman") &&
+                          (excludeUserId == null || u.UserId != excludeUserId));
+        }
+
+        //hàm sửa user của admin chỉ đc 1 chairman
+        public static bool IsChairman(int clubId, string role, int? editingUserId = null)
+        {
+            var context = new ClubManagementContext();
+
+            // Tìm người đã có role tương ứng trong club
+            var user = context.Users
+                .FirstOrDefault(u => u.ClubId == clubId && u.Role == role);
+
+            // Nếu không ai có role này thì hợp lệ
+            if (user == null) return true;
+
+            // Nếu đang sửa chính người đó thì cho phép
+            if (editingUserId != null && user.UserId == editingUserId) return true;
+
+            return false; // Đã có người khác rồi
         }
     }
 }
