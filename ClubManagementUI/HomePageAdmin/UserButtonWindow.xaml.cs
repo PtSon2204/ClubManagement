@@ -133,6 +133,15 @@ namespace ClubManagementUI.HomePageAdmin
             } else
             {
                 newUser.UserId = _userSelect.UserId;
+
+                // ⚠️ THÊM KIỂM TRA ở đây trước khi update
+                if ((selectedRole == "Chairman" || selectedRole == "ViceChairman") &&
+                    !Validation.Validate.IsChairman(selectedClubId, selectedRole, newUser.UserId))
+                {
+                    MessageBox.Show($"This club already has a {selectedRole}. You cannot assign more than one.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
                 _userService.UpdateUser(newUser);
             }
             ClearForm();
